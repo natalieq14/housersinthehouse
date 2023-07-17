@@ -1,0 +1,43 @@
+/* Color Scheme*/
+/* bg: #fffcea (light tan) or w3-sand
+accent colors:
+    #fbffea (pastel green) or w3-pale-green
+    #fff5ea (pastel red) or w3-pale-red
+    #ffffff (white)
+    #f4f4f4 (light gray) or w3-light-gray */
+
+ul.no-bullets {
+  list-style: none;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.image-container {
+  position: relative;
+}
+
+.text-container {
+  position: absolute;
+  top: 0;
+  left: 400px;
+  width: 100%;
+  padding: 20px;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  width: 100%;
+  padding: 160px;
+}
+
+.cn {
+  position: absolute;
+  bottom: 100px;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
