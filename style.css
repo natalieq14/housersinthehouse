@@ -33,10 +33,6 @@ nav {
   width: 100%;
   padding: 140px;
 }
-.vertical-line {
-  border-right: 2px solid black;
-  padding-right: 10px; /* Optional: Adding some space between the line and the text */
-}
 
 footer {
   position: relative;
