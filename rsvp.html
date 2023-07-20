@@ -27,7 +27,7 @@
                             <li><a class="w3-bar-item w3-button w3-hover-none w3-border-sand w3-bottombar w3-hover-border-pale-green" href="photos.html">Photos</a></li>
                             <li><a class="w3-bar-item w3-button w3-hover-none w3-border-sand w3-bottombar w3-hover-border-pale-green" href="weddingParty.html">Wedding Party</a></li>
                             <li><a class="w3-bar-item w3-button w3-hover-none w3-border-sand w3-bottombar w3-hover-border-pale-green" href="qa.html">Q&A</a></li>
-                            <li><a class="w3-bar-item w3-button w3-hover-none w3-border-sand w3-bottombar w3-border-pale-green" href="registry.html">Registry</a></li>
+                            <li><a class="w3-bar-item w3-button w3-hover-none w3-border-sand w3-bottombar w3-border-pale-green" href="rsvp.html">RSVP</a></li>
                         </ul>
                     </nav>
         </div>        
@@ -36,7 +36,47 @@
     
     
     <main>
-        <!-- Q and A -->
+        <div class="w3-container w3-pale-green w3-text-grey w3-col">
+            <h2>RSVP</h2>
+          </div>
+          
+          <form class="w3-container w3-card-4">
+            <p>
+                <label class="w3-text-grey">Name</label>
+                <input class="w3-input w3-border w3-round" type="text">
+            </p>
+            <p>
+                <label class="w3-text-grey">Email:</label>
+                <input class="w3-input w3-border w3-round" type="text">
+            </p>
+            <p>
+                <label class="w3-text-grey">How many people will be in your party, including you?</label>
+                <input class="w3-input w3-border w3-round" type="text">
+            </p>
+            <p>
+                <label class="w3-text-grey">Do you have any song requests?</label>
+                <input class="w3-input w3-border w3-round" type="text"></p>
+            <p>
+                 <label class="w3-text-grey">Send a note to the couple?</label>
+                <input class="w3-input w3-border w3-round" type="text">
+            </p>
+            <div class="w3-row-padding">
+                <div class="w3-half">
+                    <select class="w3-select w3-text-grey w3-round" name="option">
+                        <option value="" disabled selected>Ceremony</option>
+                        <option value="1">Attending Ceremony</option>
+                        <option value="2">Declined Ceremony</option>
+                    </select>
+              </div>
+              <div class="w3-half">
+              <select class="w3-select w3-text-grey w3-round" name="option">
+                <option value="" disabled selected>Reception</option>
+                <option value="1">Attending Reception</option>
+                <option value="2">Declined Reception</option>
+              </select>
+              </div>
+              <p><button class="w3-margin w3-btn w3-pale-green">Send RSVP</button></p>
+            </form>
                
         
     </main>
