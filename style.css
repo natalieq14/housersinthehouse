@@ -26,12 +26,6 @@ ul.no-bullets {
   padding: 20px;
 }
 
-nav {
-  position: relative;
-  left: 500px;
-  width: 100%;
-}
-
 footer {
   position: relative;
 }
@@ -45,10 +39,6 @@ footer {
 /* Responsive Styles */
 @media screen and (max-width: 840px) {
   .text-container {
-    left: 60px;
-  }
-
-  nav {
     left: 60px;
   }
 }
