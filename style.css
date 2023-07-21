@@ -6,10 +6,6 @@ accent colors:
     #ffffff (white)
     #f4f4f4 (light gray) or w3-light-gray */
 
-ul.no-bullets {
-  list-style: none;
-}
-
 .full-width {
   width: 100%;
 }
